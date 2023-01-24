@@ -1,4 +1,4 @@
-name: Java CI 03 for compile sources 
+name: Java CI 03.2 for compile sources
 run-name: ${{ github.actor }} runs compile sources 🚀
 on: [push]
 jobs:
