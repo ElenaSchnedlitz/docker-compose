@@ -1,6 +1,9 @@
 name: Java CI 03.2 for compile sources
 run-name: ${{ github.actor }} runs compile sources 🚀
 on: [push]
+env:
+  MYSQL_VERSION : '8.0'
+  SERVER_PORT : '8181'
 jobs:
   build:
     runs-on: ubuntu-latest
