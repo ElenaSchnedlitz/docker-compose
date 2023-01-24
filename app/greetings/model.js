@@ -8,6 +8,7 @@ const connection = mysql.createConnection({
     user: 'fhj',
     password: 'password',
     database: 'contdel',
+    port: 3307
 });
 
 // get all notes
